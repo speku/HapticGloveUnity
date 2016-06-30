@@ -58,15 +58,6 @@ using System.Collections.Generic;
     }
    
 
-    void OnDestroy()
-    {
-        if (initialized)
-        {
-            PipeClient.Close();
-            initialized = false;
-        }
-    }
-
     public enum Hand
     {
         right,

@@ -32,12 +32,6 @@ public class HapticEffectSimple : MonoBehaviour {
     }
 
 
-    void OnDestroy()
-    {
-        PipeClient.Close();
-    }
-
-
     public enum Hand
     {
         right,
